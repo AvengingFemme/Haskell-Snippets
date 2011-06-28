@@ -8,7 +8,6 @@ availableFlatRateBoxes = [[8+5/8,5+3/8+1+5/8], [11,8+1/2,5+1/2], [13+5/8, 11+7/8
 
 -- fitBox is the box we're trying to put inside another box
 -- testBox is the box we're trying to fit inside
--- sorted is whether or not the input has been sorted previously
 fitBoxInto :: [Double] -> [Double] -> Bool
 fitBoxInto fitBox testBox
 	| length fitBox /= length testBox = False -- if they're differently dimensioned, not going to fit
